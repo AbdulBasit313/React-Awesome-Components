@@ -31,7 +31,7 @@ const cards = [
 ]
 
 const ExpandingCards = () => {
-  const [activeCard, setActiveCard] = useState(1)
+  const [activeCard, setActiveCard] = useState<number>(1)
 
   const handleExpand = (cardId: number) => {
     setActiveCard(cardId)

@@ -1,10 +1,10 @@
 import React from 'react'
-import ExpandingCards from 'components/ExpandingCards'
+import ProgressSteps from 'components/ProgressSteps'
 import './App.css'
 
 const App = () => {
   return (
-    <ExpandingCards />
+    <ProgressSteps />
   )
 }
 
